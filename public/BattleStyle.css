@@ -1,0 +1,90 @@
+button {
+    display: block;
+    margin-top: 20px;
+    margin-left: 46.1%;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.self{
+    border: 6px solid red;
+    border-radius: 10px;
+
+}
+html{
+    height:100%;
+}
+body{
+    /*noinspection CssUnknownTarget*/
+    height:100%;
+    background-image: url("https://c.wallhere.com/photos/26/6e/1500x999_px_sea_ship_war-518719.jpg!d");
+    background-size: 100%;
+}
+.container{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    width: 500px;
+    margin-left: 70px;
+    margin-top: 100px;
+    background: url("https://img.ibxk.com.br/2016/10/13/13105856153039.jpg?w=1040") no-repeat;
+    background-size: 500px 500px;
+}
+.fieldCell, .fieldCellSelf{
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    background: black;
+
+}
+.fieldCellSelf:hover{
+    background: grey;
+}
+.myBoat{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    background: teal;
+    border-radius: 10px;
+}
+.myBoat:hover{
+    background: midnightblue;
+}
+.shotWater, .shotWaterSelf{
+    box-sizing: border-box;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+.shotWaterSelf:hover{
+    background: navy;
+}
+.shotBoat, .shotBoatSelf{
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    background: url("https://i.ytimg.com/vi/HTNtFoqhvDw/maxresdefault.jpg") no-repeat;
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 10px;
+}
+.shotBoatSelf:hover{
+    background: maroon;
+}
+
+#user{
+    margin-left: 20%;
+}
